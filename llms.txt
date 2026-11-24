@@ -1,0 +1,14 @@
+# Quotix
+
+> Quotix is a done-for-you growth service for clinics in Indore, India. It edits reels from the clinic's own footage, runs a WhatsApp assistant that sends reminders and follow-ups to the clinic's existing patients, and keeps the clinic set up to be found on Google and in AI search.
+
+- Who it is for: dermatology, dental, IVF, hair transplant and cosmetic clinics. Weight-loss clinics are not taken.
+- Plans (3-month minimum): Essential Rs 30,000/month, Growth Rs 45,000/month, Flagship Rs 75,000/month (ad spend extra).
+- One-time setup: Rs 17,000 for a 5-page website, 5 blog posts, Google Business Profile and AI search setup; credited against month one if a plan starts within 30 days.
+- Fees are fixed and never tied to patient numbers or referrals.
+- Content is educational only: no testimonials, no guaranteed results.
+- Case study: ALTRcare, a doctor-led telehealth practice built by the same team.
+- Contact: hello@quotixai.com
+
+## Pages
+- [Home](https://quotixai.com/): services, plans, how it works, FAQ and free AI-search audit
