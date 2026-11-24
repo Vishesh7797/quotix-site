@@ -31,9 +31,9 @@
     "@type": "OfferCatalog",
     "name": "Clinic growth plans",
     "itemListElement": [
-      {"@type": "Offer", "name": "Essential", "price": "30000", "priceCurrency": "INR", "description": "Monthly. 12 reels, weekly carousel, stories, festival posts, posting, WhatsApp reminders, AI search upkeep, monthly report."},
-      {"@type": "Offer", "name": "Growth", "price": "45000", "priceCurrency": "INR", "description": "Monthly. 16 reels, review requests, Google Business Profile, 2 blogs a month, plus everything in Essential."},
-      {"@type": "Offer", "name": "Flagship", "price": "75000", "priceCurrency": "INR", "description": "Monthly. 24 reels plus YouTube Shorts, recall campaigns, 4 blogs, second location or doctor, ads management, monthly call."},
+      {"@type": "Offer", "name": "Essential", "price": "30000", "priceCurrency": "INR", "description": "Monthly. 5 reels, carousels, stories, festival posts, posting, WhatsApp reminders for existing patients, monthly AI search upkeep, monthly report."},
+      {"@type": "Offer", "name": "Growth", "price": "45000", "priceCurrency": "INR", "description": "Monthly. 10 reels, WhatsApp review requests, Google Business Profile, 2 blogs a month, plus everything in Essential."},
+      {"@type": "Offer", "name": "Flagship", "price": "75000", "priceCurrency": "INR", "description": "Monthly. 15 reels plus YouTube Shorts, recall campaigns, 4 blogs, second location or doctor, ads management (ad spend extra), monthly call."},
       {"@type": "Offer", "name": "One-time setup", "price": "17000", "priceCurrency": "INR", "description": "5-page website, 5 blog posts, Google Business Profile, AI search and SEO setup."}
     ]
   }
@@ -139,6 +139,15 @@ section{padding:88px 0}
 .plan .btn{margin-top:26px;text-align:center}
 @media(max-width:960px){.plans{grid-template-columns:1fr}}
 
+.compare{margin-top:20px;background:var(--card);border:1px solid var(--line);border-radius:var(--r);overflow-x:auto}
+.compare table{width:100%;border-collapse:collapse;min-width:680px;font-size:15px}
+.compare th,.compare td{text-align:left;padding:16px 20px;border-bottom:1px solid var(--line);vertical-align:top}
+.compare tr:last-child td{border-bottom:0}
+.compare th{font-family:"Instrument Serif",serif;font-weight:400;font-size:22px}
+.compare th span{display:block;font-family:Inter,sans-serif;font-size:13px;color:var(--muted);margin-top:2px}
+.compare td:first-child{font-weight:600;color:var(--ink);width:24%}
+.compare td{color:var(--ink-2)}
+.compare th:nth-child(3),.compare td:nth-child(3){background:#FBF7EE}
 .setup{margin-top:20px;background:var(--gold-soft);border-radius:var(--r);padding:30px 32px;display:grid;grid-template-columns:auto 1fr auto;gap:32px;align-items:center}
 .setup .price{margin:0}
 .setup h3{font-size:20px;font-weight:600}
@@ -286,13 +295,11 @@ footer a{text-decoration:none}
           <div class="price">₹30,000<small> / month</small></div>
           <div class="note">3-month minimum</div>
           <ul>
-            <li>12 reels a month from your footage</li>
-            <li>1 carousel a week</li>
-            <li>Stories for every reel</li>
-            <li>Festival posts and stories</li>
+            <li>5 reels a month from your footage</li>
+            <li>Carousels, stories and festival posts</li>
             <li>Posting on your accounts</li>
             <li>WhatsApp reminders and follow-ups for existing patients</li>
-            <li>AI search visibility upkeep</li>
+            <li>Monthly AI search visibility upkeep</li>
             <li>Monthly report</li>
           </ul>
           <a class="btn btn-ghost" href="#audit">Start with an audit</a>
@@ -305,7 +312,7 @@ footer a{text-decoration:none}
           <div class="note">3-month minimum</div>
           <ul>
             <li class="inherit">Everything in Essential</li>
-            <li>16 reels a month instead of 12</li>
+            <li>10 reels a month instead of 5</li>
             <li>Review requests on WhatsApp after visits</li>
             <li>Google Business Profile management</li>
             <li>2 blogs a month</li>
@@ -320,15 +327,29 @@ footer a{text-decoration:none}
           <div class="note">3-month minimum. Ad spend extra.</div>
           <ul>
             <li class="inherit">Everything in Growth</li>
-            <li>24 reels a month, also cut as YouTube Shorts</li>
+            <li>15 reels a month, also posted as YouTube Shorts</li>
             <li>Recall campaigns for lapsed patients</li>
-            <li>4 blogs a month</li>
+            <li>4 blogs a month instead of 2</li>
             <li>A second location or doctor covered</li>
-            <li>Ads management</li>
+            <li>Ads management (ad spend extra)</li>
             <li>Monthly review call</li>
           </ul>
           <a class="btn btn-ghost" href="#audit">Start with an audit</a>
         </div>
+      </div>
+
+      <div class="compare reveal">
+        <table>
+          <thead><tr><th></th><th>Essential<span>₹30,000</span></th><th>Growth<span>₹45,000</span></th><th>Flagship<span>₹75,000</span></th></tr></thead>
+          <tbody>
+            <tr><td>Reels a month</td><td>5</td><td>10</td><td>15, plus YouTube Shorts</td></tr>
+            <tr><td>Carousels, stories, festival posts</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>WhatsApp assistant</td><td>Reminders and follow-ups</td><td>Plus review requests</td><td>Plus recall campaigns</td></tr>
+            <tr><td>AI search visibility</td><td>Monthly upkeep</td><td>Plus Google Business Profile and 2 blogs</td><td>Plus 4 blogs and a second location or doctor</td></tr>
+            <tr><td>Ads management</td><td>No</td><td>No</td><td>Yes (ad spend extra)</td></tr>
+            <tr><td>Reporting</td><td>Monthly report</td><td>Monthly report</td><td>Monthly call</td></tr>
+          </tbody>
+        </table>
       </div>
 
       <div class="setup reveal">
